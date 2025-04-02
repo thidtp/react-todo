@@ -1,12 +1,59 @@
-# React + Vite
+# React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This is a **To-Do List** application built with **React** and **Vite**. It allows users to efficiently create, delete, and mark tasks as completed.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web applications.
+- **ESLint**: Ensures code quality and consistency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- ✅ Add new tasks.
+- ✏️ Edit existing tasks.
+- ❌ Delete tasks.
+- 📌 Mark tasks as completed.
+- 🔄 Persist tasks using localStorage.
 
-## Expanding the ESLint configuration
+## Installation & Setup
+### Requirements
+- Node.js >= 16
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install Dependencies
+```sh
+npm install
+```
+
+### Run the Application
+```sh
+npm run dev
+```
+After running the command, open your browser and navigate to: [http://localhost:5173](http://localhost:5173)
+
+## Project Structure
+```
+react-todo/
+│── src/
+│   ├── components/   # UI components
+│   ├── pages/        # Main pages
+│   ├── hooks/        # Custom hooks
+│   ├── App.jsx       # Root component
+│   ├── main.jsx      # Entry point
+│── public/           # Static assets
+│── package.json      # Dependencies configuration
+│── vite.config.js    # Vite configuration
+```
+
+## Future Enhancements
+To further improve this application, consider adding:
+- 🎨 Dark Mode support
+- 📆 Task reminders and notifications
+- 🔗 User authentication and cloud sync
+
+## Contributions
+We welcome contributions! Feel free to open an issue or submit a pull request on GitHub.
+
+## License
+This project is licensed under the **MIT License**.
+
