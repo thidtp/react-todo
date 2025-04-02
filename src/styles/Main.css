@@ -3,3 +3,8 @@
     display: grid;
     grid-template-columns: 0.5fr 1fr;
 }
+.sidebar{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 20px;
+}
