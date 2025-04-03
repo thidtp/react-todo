@@ -1,7 +1,7 @@
 import React from 'react';
-import { Icon } from "@iconify/react";
 import logo from '../assets/images/logomark.png'
 import  '../styles/Header.css'
+import { Icon } from "@iconify/react";
 
 const Header = () => {
     return (

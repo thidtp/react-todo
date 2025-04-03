@@ -2,9 +2,148 @@
     background-color: antiquewhite;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
+    gap: 20px;
 }
-.sidebar{
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    padding: 20px;
+.sidebar {
+    margin-top: 25%;
+    background-color: #EEF6EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.profile {
+    position: absolute;
+    margin-top: -52%;
+    justify-content: center;
+}
+.profile p{
+    text-align: center;
+}
+.menu-sidebar{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:rgb(255, 255, 255);
+}
+.menu-item span{
+    color: black;
+}
+.menu-addlist{
+    width: 80%;
+    height: 88px;
+}
+.menu-addlist button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    color: black;
+    background-color: white;
+}
+.stats{
+    background-color: white;
+    width: 80%;
+}
+.stats-content{
+    position: relative; 
+    padding: 10px 10px;
+}
+.warning-icon {
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 85%;
+}
+.circular-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.circular-progress {
+    width: 151.57223510742188px;
+    height: 151.57223510742188px;
+}
+.progressbar-content{
+    padding: 20px 20px;
+}
+.status-container {
+    display: flex;
+    gap: 20px;
+
+}
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+.status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.pendding-circle {
+    background-color: #3F9142;
+}
+.done-circle {
+    background-color: #142E15;
+}
+.todo-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 20px 0;
+    background-color: rgb(166, 113, 44);
+}
+.todo-title{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.todo-title p{
+    font-size: 13px;
+    color: #142E159E;
+}
+.task-container{
+    background-color: bisque;
+}
+.task-content{
+    background-color: aliceblue;
+    padding: 10px 20px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 146px;
+}
+
+.task-content p{
+    margin-top: 5%;
+    
+}
+.task-icons{
+    background-color: rgb(24, 87, 142);
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+}
+.task-container button{
+    width: 120px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #35793729;
+    color: #357937;
+    font-size: 15px;
+    
 }
