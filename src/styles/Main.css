@@ -1,5 +1,5 @@
 .main-container{
-    background-color: antiquewhite;
+    background-color: beige;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     gap: 20px;
@@ -17,14 +17,14 @@
 
 .profile {
     position: absolute;
-    margin-top: -52%;
+    margin-top: -65%;
     justify-content: center;
 }
 .profile p{
     text-align: center;
 }
 .menu-sidebar{
-    margin-top: 20%;
+    margin-top: 35%;
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -104,7 +104,6 @@
     display: flex;
     flex-direction: column;
     padding: 10px 30px 20px 0;
-    background-color: rgb(166, 113, 44);
 }
 .todo-title{
     height: 32px;
@@ -117,11 +116,12 @@
     color: #142E159E;
 }
 .task-container{
-    background-color: bisque;
+    background-color: #EEF6EF;
+
+
 }
 .task-content{
-    background-color: aliceblue;
-    padding: 10px 20px 0px 10px;
+    padding: 10px 0px 10px 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -133,10 +133,18 @@
     
 }
 .task-icons{
-    background-color: rgb(24, 87, 142);
     display: flex;
     gap: 10px;
     margin-top: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.task-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
 }
 .task-container button{
     width: 120px;
@@ -145,5 +153,23 @@
     background-color: #35793729;
     color: #357937;
     font-size: 15px;
-    
+}
+.todo-list{
+    height: 45vh;
+}
+.todo-list-content{
+    height: 100vh;
+}
+.todo-list-items{
+    /* height: 100%; */
+    width: 100%;
+    height: 100vh;
+    height: 80px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.todo-list-item{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   
 }
